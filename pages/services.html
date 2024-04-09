@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExploreEra</title>
+
+    <!-- Favicon link -->
+    <link rel="icon" href="../images/fav_icon.png" type="image/x-icon" />
+
+    <!-- reset css link -->
+    <link rel="stylesheet" href="../css/reset.css" />
+
+    <!-- Slick css links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+
+    <!-- style css link -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- fonts css link -->
+    <link rel="stylesheet" href="../css/fonts.css" />
+
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="../css/responsive.css" />
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="services_page roboto-regular">
+    <!-------------------------------------------- Header -------------------------------------------->
+    <header>
+      <div class="services_page_header">
+        <div class="header_content container">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="../index.html">
+              <h1 class="kalnia_font">ExploreEra</h1>
+            </a>
+          </div>
+
+          <!-- Navigation -->
+          <nav class="navigation">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="../index.html#blogs">Blogs</a></li>
+              <li><a href="services.html">Our services</a></li>
+              <li><a href="#">Our offers</a></li>
+              <li class="user_icon">
+                <a href="#"
+                  ><img
+                    class="user_icon_img"
+                    src="../images/user_icon_black.png"
+                    alt="User Icon"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Menu Button -->
+    <div class="nav_button">
+      <img src="../images/burger_menu_icon.png" alt="Navigation Button" />
+    </div>
+
+    <!-------------------------------------------- Section -------------------------------------------->
+    <section>
+      <div class="container">
+        <nav>
+          <ul class="services_list">
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Stays</a></li>
+            <li><a href="#">Car Rentals</a></li>
+            <li><a href="#">Cruises</a></li>
+            <li><a href="#">Attractions</a></li>
+          </ul>
+        </nav>
+
+        <div class="flight_details">
+          <div>
+            <p>One-way</p>
+            <img src="../images/dropdown_icon.png" alt="Arrow Icon" />
+            <p>1 Adult</p>
+            <img src="../images/dropdown_icon.png" alt="Arrow Icon" />
+            <p>Economy</p>
+            <img src="../images/dropdown_icon.png" alt="Arrow Icon" />
+          </div>
+        </div>
+
+        <div class="flight_form">
+          <form id="flights_form" action="#">
+            <div class="flight_form_group">
+              <select id="from" name="from" required>
+                <option value="" disabled selected>From</option>
+                <option value="New York">Tbilisi</option>
+                <option value="Los Angeles">Kutaisi</option>
+                <option value="New York">Batumi</option>
+              </select>
+            </div>
+
+            <div class="flight_form_group">
+              <select id="to" name="to" required>
+                <option value="" disabled selected>To</option>
+                <option value="New York">Paris</option>
+                <option value="Los Angeles">London</option>
+                <option value="New York">Prague</option>
+                <option value="Los Angeles">Madrid</option>
+                <option value="New York">Rome</option>
+              </select>
+            </div>
+
+            <div class="flight_form_group">
+              <input
+                type="date"
+                id="departure-date"
+                name="departure-date"
+                required
+              />
+            </div>
+
+            <button id="searchButton" type="submit">Search</button>
+          </form>
+        </div>
+
+        <section class="georgian_airlines">
+          <div class="column_1">
+            <div class="column_1_row_1">
+              <a>Cheapest</a>
+              <a>Quickest</a>
+              <a>best</a>
+            </div>
+
+            <div class="column_1_row_2">
+              <div class="column_1_row_2_section_1">
+                <div>
+                  <p>Stops</p>
+                  <img src="../images/arrow_up.png" alt="Arrow Up" />
+                </div>
+
+                <div class="georgian_airlines_form_group">
+                  <input type="checkbox" id="direct" name="direct" />
+                  <label for="direct">Direct</label>
+                </div>
+
+                <div class="georgian_airlines_form_group">
+                  <input type="checkbox" id="one_stop" name="one_stop" />
+                  <label for="one_stop">One Stop</label>
+                </div>
+
+                <div class="georgian_airlines_form_group">
+                  <input type="checkbox" id="two_stops" name="two_stops" />
+                  <label for="two_stops">Two Stops</label>
+                </div>
+              </div>
+
+              <div class="column_1_row_2_section_2">
+                <div>
+                  <p>Times</p>
+                  <img src="../images/arrow_up.png" alt="Arrow Up" />
+                </div>
+
+                <p>Take off - Tbilisi</p>
+                <div class="times">
+                  <p>12:00</p>
+                  <p>24:00</p>
+                </div>
+                <div class="line">
+                  <img src="../images/line.png" alt="Line" />
+                </div>
+
+                <p>Take off - Paris</p>
+                <div class="times">
+                  <p>12:00</p>
+                  <p>24:00</p>
+                </div>
+                <div class="line">
+                  <img src="../images/line.png" alt="Line" />
+                </div>
+
+                <div class="display_flex">
+                  <p>Airlines</p>
+                  <img src="../images/dropdown_icon.png" alt="Arrow Down" />
+                </div>
+
+                <div class="display_flex">
+                  <p>Airports</p>
+                  <img src="../images/dropdown_icon.png" alt="Arrow Down" />
+                </div>
+
+                <div class="display_flex">
+                  <p>Duration</p>
+                  <img src="../images/arrow_up.png" alt="Arrow Up" />
+                </div>
+
+                <div class="times">
+                  <p>7 hours</p>
+                  <p>30 hours</p>
+                </div>
+
+                <div class="line">
+                  <img src="../images/line.png" alt="Line" />
+                </div>
+
+                <div class="display_flex">
+                  <p>Price</p>
+                  <img src="../images/arrow_up.png" alt="Arrow Up" />
+                </div>
+
+                <div class="times">
+                  <p>700$</p>
+                  <p>3000$</p>
+                </div>
+
+                <div class="line">
+                  <img src="../images/line.png" alt="Line" />
+                </div>
+
+                <div class="display_flex">
+                  <p>Price Calculator</p>
+                  <img src="../images/arrow_up.png" alt="Arrow Up" />
+                </div>
+
+                <div class="price_calculator_component">
+                  <div>
+                    <img src="../images/payment_method_icon.png" alt="Icon" />
+                    <p>Payment method</p>
+                  </div>
+
+                  <div>
+                    <p>Choose payment method</p>
+                  </div>
+                </div>
+
+                <div class="price_calculator_component">
+                  <div>
+                    <img src="../images/carry_on_bag.png" alt="Icon" />
+                    <p>Carry-on bag</p>
+                  </div>
+
+                  <div>
+                    <p>Select bags (0)</p>
+                  </div>
+                </div>
+
+                <div class="price_calculator_component">
+                  <div>
+                    <img src="../images/checked_bag_icon.png" alt="Icon" />
+                    <p>Checked bag</p>
+                  </div>
+
+                  <div>
+                    <p>Select bags (0)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column_2">
+            <!-- 1st row-->
+            <div class="column_2_row">
+              <div class="column_2_row_container">
+                <div>
+                  <img
+                    src="../images/georgian_airlines.png"
+                    alt="Georgian Airlines Logo"
+                  />
+                </div>
+
+                <div>
+                  <div class="take_off_landing_text">
+                    <p>Take off</p>
+                    <p>Landing</p>
+                  </div>
+
+                  <div class="take_off_landing_times">
+                    <p>12:00</p>
+                    <img src="../images/Group 3.png" alt="line" />
+                    <p>19:00</p>
+                  </div>
+                </div>
+
+                <p class="duration">7 Hours</p>
+
+                <div>
+                  <div class="price">
+                    <p>Price</p>
+                    <p>600$</p>
+                  </div>
+
+                  <div class="deal">
+                    <a href="#">View Deal</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2nd row-->
+            <div class="column_2_row">
+              <div class="column_2_row_container">
+                <div>
+                  <img
+                    src="../images/georgian_airlines.png"
+                    alt="Georgian Airlines Logo"
+                  />
+                </div>
+
+                <div>
+                  <div class="take_off_landing_text">
+                    <p>Take off</p>
+                    <p>Landing</p>
+                  </div>
+
+                  <div class="take_off_landing_times">
+                    <p>12:00</p>
+                    <img src="../images/Group 3.png" alt="line" />
+                    <p>19:00</p>
+                  </div>
+                </div>
+
+                <p class="duration">7 Hours</p>
+
+                <div>
+                  <div class="price">
+                    <p>Price</p>
+                    <p>600$</p>
+                  </div>
+
+                  <div class="deal">
+                    <a href="#">View Deal</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3rd row-->
+            <div class="column_2_row">
+              <div class="column_2_row_container">
+                <div>
+                  <img
+                    src="../images/georgian_airlines.png"
+                    alt="Georgian Airlines Logo"
+                  />
+                </div>
+
+                <div>
+                  <div class="take_off_landing_text">
+                    <p>Take off</p>
+                    <p>Landing</p>
+                  </div>
+
+                  <div class="take_off_landing_times">
+                    <p>12:00</p>
+                    <img src="../images/Group 3.png" alt="line" />
+                    <p>19:00</p>
+                  </div>
+                </div>
+
+                <p class="duration">7 Hours</p>
+
+                <div>
+                  <div class="price">
+                    <p>Price</p>
+                    <p>600$</p>
+                  </div>
+
+                  <div class="deal">
+                    <a href="#">View Deal</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4th row-->
+            <div class="column_2_row">
+              <div class="column_2_row_container">
+                <div>
+                  <img
+                    src="../images/georgian_airlines.png"
+                    alt="Georgian Airlines Logo"
+                  />
+                </div>
+
+                <div>
+                  <div class="take_off_landing_text">
+                    <p>Take off</p>
+                    <p>Landing</p>
+                  </div>
+
+                  <div class="take_off_landing_times">
+                    <p>12:00</p>
+                    <img src="../images/Group 3.png" alt="line" />
+                    <p>19:00</p>
+                  </div>
+                </div>
+
+                <p class="duration">7 Hours</p>
+
+                <div>
+                  <div class="price">
+                    <p>Price</p>
+                    <p>600$</p>
+                  </div>
+
+                  <div class="deal">
+                    <a href="#">View Deal</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5th row-->
+            <div class="column_2_row">
+              <div class="column_2_row_container">
+                <div>
+                  <img
+                    src="../images/georgian_airlines.png"
+                    alt="Georgian Airlines Logo"
+                  />
+                </div>
+
+                <div>
+                  <div class="take_off_landing_text">
+                    <p>Take off</p>
+                    <p>Landing</p>
+                  </div>
+
+                  <div class="take_off_landing_times">
+                    <p>12:00</p>
+                    <img src="../images/Group 3.png" alt="line" />
+                    <p>19:00</p>
+                  </div>
+                </div>
+
+                <p class="duration">7 Hours</p>
+
+                <div>
+                  <div class="price">
+                    <p>Price</p>
+                    <p>600$</p>
+                  </div>
+
+                  <div class="deal">
+                    <a href="#">View Deal</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6th row-->
+            <div class="column_2_row">
+              <div class="column_2_row_container">
+                <div>
+                  <img
+                    src="../images/georgian_airlines.png"
+                    alt="Georgian Airlines Logo"
+                  />
+                </div>
+
+                <div>
+                  <div class="take_off_landing_text">
+                    <p>Take off</p>
+                    <p>Landing</p>
+                  </div>
+
+                  <div class="take_off_landing_times">
+                    <p>12:00</p>
+                    <img src="../images/Group 3.png" alt="line" />
+                    <p>19:00</p>
+                  </div>
+                </div>
+
+                <p class="duration">7 Hours</p>
+
+                <div>
+                  <div class="price">
+                    <p>Price</p>
+                    <p>600$</p>
+                  </div>
+
+                  <div class="deal">
+                    <a href="#">View Deal</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 7th row-->
+            <div class="column_2_row">
+              <div class="column_2_row_container">
+                <div>
+                  <img
+                    src="../images/georgian_airlines.png"
+                    alt="Georgian Airlines Logo"
+                  />
+                </div>
+
+                <div>
+                  <div class="take_off_landing_text">
+                    <p>Take off</p>
+                    <p>Landing</p>
+                  </div>
+
+                  <div class="take_off_landing_times">
+                    <p>12:00</p>
+                    <img src="../images/Group 3.png" alt="line" />
+                    <p>19:00</p>
+                  </div>
+                </div>
+
+                <p class="duration">7 Hours</p>
+
+                <div>
+                  <div class="price">
+                    <p>Price</p>
+                    <p>600$</p>
+                  </div>
+
+                  <div class="deal">
+                    <a href="#">View Deal</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 8th row-->
+            <div class="column_2_row">
+              <div class="column_2_row_container">
+                <div>
+                  <img
+                    src="../images/georgian_airlines.png"
+                    alt="Georgian Airlines Logo"
+                  />
+                </div>
+
+                <div>
+                  <div class="take_off_landing_text">
+                    <p>Take off</p>
+                    <p>Landing</p>
+                  </div>
+
+                  <div class="take_off_landing_times">
+                    <p>12:00</p>
+                    <img src="../images/Group 3.png" alt="line" />
+                    <p>19:00</p>
+                  </div>
+                </div>
+
+                <p class="duration">7 Hours</p>
+
+                <div>
+                  <div class="price">
+                    <p>Price</p>
+                    <p>600$</p>
+                  </div>
+
+                  <div class="deal">
+                    <a href="#">View Deal</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="more_results"><a href="#">Show more results </a></div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-------------------------------------------- Footer -------------------------------------------->
+    <footer>
+      <div class="footer_content container roboto-regular">
+        <div>
+          <!-- Footer - 1st column -->
+          <div>
+            <a href="index.html">
+              <h1 class="kalnia_font">ExploreEra</h1>
+            </a>
+            <p>Travel agency which helps you to plan your perfect holidays</p>
+            <h4>Follow us</h4>
+            <div class="footer_social_icons">
+              <a href="#">
+                <img src="../images/Instagram_icon.png" alt="Instagram Icon" />
+              </a>
+              <a href="#"
+                ><img src="../images/Facebook_icon.png" alt="Facebook Icon"
+              /></a>
+              <a href="#"
+                ><img src="../images/LinkedIn_icon.png" alt="LinkedIn Icon"
+              /></a>
+            </div>
+          </div>
+
+          <!-- Footer - 2nd column -->
+          <div>
+            <h4>Links</h4>
+            <a href="../index.html">Home</a>
+            <a href="#">About us</a>
+            <a href="../index.html#blogs">Blogs</a>
+            <a href="services.html">Our services</a>
+            <a href="#">Our offers</a>
+          </div>
+
+          <!-- Footer - 3rd column -->
+          <div>
+            <h4>Contact us</h4>
+            <a href="mailto:exploreera@gmail.com">exploreera@gmail.com</a>
+            <a href="tel:+995555111222">555111222</a>
+            <h4>Subscribe news</h4>
+            <input type="email" id="email_" name="email" placeholder="Email" />
+          </div>
+        </div>
+
+        <!-- copyright -->
+        <div>
+          <p>Copyright 2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../JS/services.js"></script>
+  </body>
+</html>

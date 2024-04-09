@@ -1,0 +1,427 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1630px) {
+  #user_menu {
+    position: absolute;
+    right: 30px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .header a {
+    font-size: 18px;
+  }
+
+  .user_icon a img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .section_2_blocks_div p {
+    font-size: 16px;
+  }
+
+  .slide h2 {
+    font-size: 20px;
+  }
+
+  .slide p {
+    font-size: 18px;
+  }
+
+  .blog-card a {
+    font-size: 20px;
+  }
+
+  #tour-booking-form select {
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 13px;
+    margin-top: 40px;
+    width: 450px;
+    height: 56px;
+  }
+
+  #tour-booking-form button {
+    width: 100%;
+    height: 56px;
+    border-radius: 15px;
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+
+  footer h1 {
+    font-size: 35px;
+  }
+
+  footer h4 {
+    font-size: 22px;
+  }
+
+  .footer_content > div > div:nth-child(2) a {
+    font-size: 16px;
+  }
+
+  .footer_social_icons a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer_content > div > div:nth-child(3) input {
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1080px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .header a {
+    font-size: 13px;
+  }
+
+  .header.scrolled {
+    height: 80px;
+  }
+
+  .user_icon a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .section_1_heading h3 {
+    font-size: 30px;
+  }
+
+  .section_1_heading h2 {
+    font-size: 40px;
+  }
+
+  .section_2_blocks_div h4 {
+    font-size: 28px;
+  }
+
+  #tour-booking-form select {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .services_page section li a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 950px) {
+  .header a {
+    font-size: 11px;
+  }
+
+  #tour-booking-form select {
+    width: 350px;
+    height: 56px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  footer h1 {
+    font-size: 18px;
+  }
+
+  footer h4 {
+    font-size: 18px;
+  }
+
+  .footer_content > div > div:nth-child(2) a {
+    font-size: 14px;
+  }
+
+  .footer_social_icons a img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer_content > div > div:nth-child(3) input {
+    font-size: 13px;
+    width: 130px;
+    height: 30px;
+  }
+
+  .services_page section li a {
+    font-size: 16px;
+  }
+
+  .column_1_row_1,
+  .column_1_row_2 {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+  }
+
+  .column_1_row_2 p {
+    font-size: 18px;
+  }
+
+  .georgian_airlines_form_group label,
+  .column_1_row_2_section_2 > p {
+    font-size: 15px;
+  }
+
+  .column_1_row_2 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+  }
+
+  .line img {
+    width: 100%;
+    height: auto;
+  }
+
+  .column_2_row img {
+    width: 100px;
+    height: 54px;
+    margin-top: 15px;
+  }
+
+  .column_2_row_container {
+    width: 95%;
+  }
+
+  .take_off_landing_times img {
+    width: 100px;
+    height: 10px;
+  }
+}
+
+/* Styles for Tablet Version */
+@media (max-width: 800px) {
+  .container {
+    width: 720px;
+  }
+
+  .nav_button {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .header.scrolled {
+    background-color: transparent;
+  }
+
+  header h1 {
+    color: var(--color_0);
+  }
+
+  .section_2_blocks_div {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .section_2_block {
+    max-width: 49%;
+    margin-top: 10px;
+  }
+
+  .section_1_heading h3 {
+    font-size: 24px;
+  }
+
+  .section_1_heading h2 {
+    font-size: 30px;
+  }
+
+  .section_1_heading a {
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .section_2 h3 {
+    font-size: 32px;
+  }
+
+  .section_3 h3,
+  .section_4 h3,
+  .section_5 h3,
+  .section_6 h3 {
+    font-size: 40px;
+  }
+
+  .blog-card {
+    width: 48%;
+  }
+
+  .footer_content > div {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .footer_content > div > div {
+    width: 48%;
+  }
+
+  .take_off_landing_times img {
+    width: 60px;
+    height: 8px;
+    margin-top: 2px;
+  }
+
+  .services_page section li a {
+    font-size: 14px;
+  }
+
+  .services_page section li:nth-child(1) {
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: -10px;
+  }
+
+  .column_1_row_1,
+  .column_1_row_2 {
+    display: none;
+  }
+
+  .georgian_airlines div.column_2 {
+    width: 100%;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .column_1_row_1,
+  .column_1_row_2 {
+    font-size: 15px;
+  }
+
+  .services_page div.container {
+    width: 97%;
+  }
+
+  .column_1_row_2 p {
+    font-size: 15px;
+  }
+
+  .georgian_airlines_form_group label,
+  .column_1_row_2_section_2 > p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sign_in_and_up_pages section > div {
+    width: 80%;
+  }
+
+  .sign_in_and_up_pages input,
+  .sign_in_and_up_pages button {
+    width: 90%;
+  }
+
+  .sign_in_and_up_pages div.form-group {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .sign_in_and_up_pages input,
+  .sign_in_and_up_pages button,
+  .sign_in_and_up_pages label,
+  .sign_in_and_up_pages_social_icons {
+    width: 80%;
+    margin-left: 30px;
+  }
+
+  .sign_in_and_up_pages div.form-group {
+    margin-top: 20px;
+  }
+
+  .sign_in_and_up_pages_social_icons > div:nth-child(1),
+  .sign_in_and_up_pages_social_icons > div:nth-child(2),
+  .sign_in_and_up_pages_social_icons > div:nth-child(3) {
+    margin-right: 10px;
+  }
+
+  .sign_in_and_up_pages_social_icons > div > img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .sign_in_and_up_pages div.terms_and_privacy_policy > div {
+    width: 100%;
+  }
+
+  .sign_in_and_up_pages div.terms_and_privacy_policy p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .sign_in_and_up_pages div.terms_and_privacy_policy > div > p:nth-child(2) {
+    width: 8%;
+  }
+
+  .error-message {
+    font-size: 14px;
+    padding-left: 45px;
+  }
+
+  .sign_in_and_up_pages div.terms_and_privacy_policy_window h4 {
+    font-size: 25px;
+  }
+
+  .sign_in_and_up_pages div.terms_and_privacy_policy_window p {
+    font-size: 14px;
+  }
+
+  .sign_in_and_up_pages div.terms_and_privacy_policy_window > div p {
+    text-align: center;
+  }
+}
+
+/* Styles for Mobile Version */
+@media (max-width: 430px) {
+  .container {
+    width: 80%;
+  }
+
+  .sign_in_and_up_pages div.terms_and_privacy_policy_window {
+    top: 48%;
+    width: 90%;
+  }
+}

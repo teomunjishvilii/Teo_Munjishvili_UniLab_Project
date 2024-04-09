@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExploreEra</title>
+
+    <!-- Favicon link -->
+    <link rel="icon" href="../images/fav_icon.png" type="image/x-icon" />
+
+    <!-- reset css link -->
+    <link rel="stylesheet" href="../css/reset.css" />
+
+    <!-- Slick css links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+
+    <!-- style css link -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- fonts css link -->
+    <link rel="stylesheet" href="../css/fonts.css" />
+
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="../css/responsive.css" />
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="sign_in_and_up_pages roboto-regular">
+    <!-------------------------------------------- Header -------------------------------------------->
+    <header>
+      <div class="sign_in_and_up_pages_header container">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="../index.html">
+            <h1 class="kalnia_font">ExploreEra</h1>
+          </a>
+        </div>
+
+        <!-- User Icon -->
+        <div class="sign_in_and_up_pages_user_icon">
+          <a href="#"
+            ><img
+              class="user_icon_img"
+              src="../images/user_icon_black.png"
+              alt="User Icon"
+          /></a>
+        </div>
+      </div>
+    </header>
+
+    <!-------------------------------------------- Sign In Form -------------------------------------------->
+    <section>
+      <div>
+        <div class="sign_in_and_up_pages_container">
+          <form id="sign-in-form" action="#">
+            <!-- FirstName field -->
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Enter your first name"
+                required
+              />
+
+              <div id="firstname-error" class="error-message hidden">
+                Wrong Firstname
+              </div>
+            </div>
+
+            <!-- LastName field -->
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Enter your last name"
+                required
+              />
+
+              <div id="lastname-error" class="error-message hidden">
+                Wrong Lastname
+              </div>
+            </div>
+
+            <!-- Email field -->
+            <div class="form-group">
+              <label for="_email">Email</label>
+              <input
+                type="email"
+                id="_email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+
+              <div id="_email-error" class="error-message hidden">
+                Wrong email
+              </div>
+            </div>
+
+            <!-- Password field -->
+            <div class="form-group">
+              <label for="_password">Password</label>
+              <input
+                class="roboto-regular"
+                type="password"
+                id="_password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+
+              <div id="_password-error" class="error-message hidden">
+                Wrong Password
+              </div>
+            </div>
+
+            <!-- Confirm Password field -->
+            <div class="form-group">
+              <label for="password">Confirm the password</label>
+              <input
+                class="roboto-regular"
+                type="password"
+                id="confirm_password"
+                name="password"
+                placeholder="Re-enter your password"
+                required
+              />
+
+              <div id="confirm-password-error" class="error-message hidden">
+                Wrong Password
+              </div>
+            </div>
+
+            <!-- Button -->
+            <button class="roboto-regular" type="submit">Continue</button>
+          </form>
+
+          <div class="sign_in_and_up_pages_border_div">
+            <div></div>
+            <div>Or continue with</div>
+            <div></div>
+          </div>
+
+          <div class="sign_in_and_up_pages_social_icons">
+            <div>
+              <a href="#">
+                <img
+                  src="/images/sign_in_page_facebook_icon.png"
+                  alt="Facebook Icon"
+              /></a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="/images/sign_in_page_apple_icon.png" alt="Apple Icon"
+              /></a>
+            </div>
+            <div>
+              <a href="#">
+                <img
+                  src="/images/sign_in_page_google_icon.png"
+                  alt="Google Icon"
+              /></a>
+            </div>
+            <div>
+              <a href="#">
+                <img
+                  src="/images/sign_in_page_gmail_icon.png"
+                  alt="Gmail Icon"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="terms_and_privacy_policy">
+            <p>By signing in or creating an account, you agree with our</p>
+
+            <div>
+              <p class="terms_and_conditions">Terms and conditions</p>
+              <p>and</p>
+              <p class="privacy_policy">Privacy policy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Terms and Privacy Policy Window -->
+    <div class="terms_and_privacy_policy_window hidden">
+      <div>
+        <div>
+          <h4>Terms and conditions</h4>
+          <p>
+            Before you use our website or services, please carefully read the
+            following Terms and Conditions. By accessing or using our platform,
+            you agree to comply with and be bound by these terms. If you do not
+            agree with any part of these terms, please do not use our services.
+            Your privacy is important to us. Please review our Privacy Policy to
+            understand how we collect, use, and disclose information about you.
+            By using our services, you consent to our privacy practices.
+          </p>
+        </div>
+
+        <div>
+          <h4>Privacy policy</h4>
+          <p>
+            We may collect personal information, such as your name, email
+            address, and other details, when you register an account, make a
+            purchase, or interact with our services. We also automatically
+            collect certain information, such as IP addresses, browser type, and
+            usage patterns, through cookies and similar technologies. Our
+            website may contain links to third-party websites or services.
+          </p>
+        </div>
+
+        <button class="agree_button">I agree</button>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-------------------------------------------- Footer -------------------------------------------->
+    <footer>
+      <div class="footer_content container roboto-regular">
+        <div>
+          <!-- Footer - 1st column -->
+          <div>
+            <a href="index.html">
+              <h1 class="kalnia_font">ExploreEra</h1>
+            </a>
+            <p>Travel agency which helps you to plan your perfect holidays</p>
+            <h4>Follow us</h4>
+            <div class="footer_social_icons">
+              <a href="#">
+                <img src="../images/Instagram_icon.png" alt="Instagram Icon" />
+              </a>
+              <a href="#"
+                ><img src="../images/Facebook_icon.png" alt="Facebook Icon"
+              /></a>
+              <a href="#"
+                ><img src="../images/LinkedIn_icon.png" alt="LinkedIn Icon"
+              /></a>
+            </div>
+          </div>
+
+          <!-- Footer - 2nd column -->
+          <div>
+            <h4>Links</h4>
+            <a href="../index.html">Home</a>
+            <a href="#">About us</a>
+            <a href="../index.html#blogs">Blogs</a>
+            <a href="services.html">Our services</a>
+            <a href="#">Our offers</a>
+          </div>
+
+          <!-- Footer - 3rd column -->
+          <div>
+            <h4>Contact us</h4>
+            <a href="mailto:exploreera@gmail.com">exploreera@gmail.com</a>
+            <a href="tel:+995555111222">555111222</a>
+            <h4>Subscribe news</h4>
+            <input type="email" id="email_" name="email" placeholder="Email" />
+          </div>
+        </div>
+
+        <!-- copyright -->
+        <div>
+          <p>Copyright 2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../JS/terms.js"></script>
+  </body>
+</html>
